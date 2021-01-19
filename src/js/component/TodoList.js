@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export const ToDoList_v2 = () => {
+export const TodoList = () => {
 	const [input, setInput] = useState("");
 	const [items, setItems] = useState([]);
 
